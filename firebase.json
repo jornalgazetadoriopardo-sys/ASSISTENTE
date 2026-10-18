@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "public": "app",
+    "ignore": ["**/.*"]
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}

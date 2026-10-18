@@ -1,0 +1,15 @@
+{
+  "clientes": [
+    { "id": "savisa", "nome": "Savisa", "whatsapp": "" },
+    { "id": "transer", "nome": "Transer", "whatsapp": "" },
+    { "id": "itobi", "nome": "Itobi", "whatsapp": "" },
+    { "id": "santaines", "nome": "Santa Inês", "whatsapp": "" }
+  ],
+  "pecas": [
+    { "id": "1", "cliente": "savisa", "titulo": "Carrossel Outubro Rosa", "tipo": "Carrossel", "prazo": "2026-10-14", "status": "aguardando", "statusDesde": "2026-10-09", "obs": "" },
+    { "id": "2", "cliente": "transer", "titulo": "Reels frota nova", "tipo": "Reels", "prazo": "2026-10-22", "status": "producao", "statusDesde": "2026-10-15", "obs": "Faltam imagens do pátio" },
+    { "id": "3", "cliente": "itobi", "titulo": "Post Dia do Médico", "tipo": "Post", "prazo": "2026-10-18", "status": "aprovado", "statusDesde": "2026-10-16", "obs": "" },
+    { "id": "4", "cliente": "santaines", "titulo": "Stories matrículas 2027", "tipo": "Story", "prazo": "2026-10-20", "status": "aguardando", "statusDesde": "2026-10-13", "obs": "" },
+    { "id": "5", "cliente": "savisa", "titulo": "Post Dia das Crianças", "tipo": "Post", "prazo": "2026-10-12", "status": "publicado", "statusDesde": "2026-10-12", "obs": "" }
+  ]
+}

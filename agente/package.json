@@ -1,0 +1,13 @@
+{
+  "name": "agente-resumo-semanal",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "resumo": "node resumo-semanal.mjs",
+    "teste": "node resumo-semanal.mjs --dados exemplo.json --sem-ia"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "firebase-admin": "^12.7.0"
+  }
+}

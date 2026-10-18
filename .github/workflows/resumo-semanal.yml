@@ -1,0 +1,23 @@
+name: Resumo semanal de atendimento
+
+on:
+  schedule:
+    - cron: "0 10 * * 1" # toda segunda às 10h UTC = 7h em Brasília
+  workflow_dispatch: {} # permite rodar na mão pela aba Actions
+
+jobs:
+  resumo:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: agente
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install
+      - run: node resumo-semanal.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
