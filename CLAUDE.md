@@ -26,4 +26,17 @@ Regras do processo gráfico, passadas pelo usuário:
 
 - **A confirmar com o usuário:** se a cor é decidida por par casado (as duas páginas do par saem na mesma chapa, então colorir uma permitiria colorir a outra sem custo extra) e em que ponto do caderno as 4 páginas novas entram (no miolo ou em outro lugar).
 
-O usuário ainda vai passar outros ajustes antes da implementação.
+## Quadro de diagramação: indicador de cabe / não cabe
+
+No quadro em que o usuário arrasta para definir os espaços da página:
+
+- Quando um espaço **já tem uma matéria atribuída**, mostrar um indicador por cor que reage **em tempo real** enquanto o espaço é aumentado ou diminuído:
+  - **uma cor** enquanto o espaço **não é suficiente** para o conteúdo da matéria;
+  - **outra cor** quando o espaço **chega ao tamanho suficiente** para o texto caber.
+- Espaços sem matéria atribuída não mostram o indicador.
+
+- **A confirmar com o usuário:** como medir se o texto cabe (contagem de caracteres ou linhas por coluna, corpo da fonte, colunas do espaço, título, foto e legenda); quais cores usar (sugestão: vermelho/laranja para "não cabe" e verde para "cabe"); e se deve haver um terceiro estado para **sobra de espaço** demais.
+
+## Pendências
+
+O usuário ainda vai passar outros ajustes antes da implementação. Não editar o código das edições até ele liberar.
