@@ -60,6 +60,8 @@ A A2 da Gazeta tem sempre o mesmo conteúdo: **Editorial, Mural, A Semana e Expe
   - **Painel de Redação:** https://claude.ai/artifact/CLharYPmRu6Zzevs5vpuwQ. Tem as pautas (`db`, coleção `pautas`, tamanho "mural") e produz matérias pelo trigger `trig_01Kkf9jvjo7585VWZr4Lmdx9`.
   - **Painel de Fechamento:** https://claude.ai/artifact/BLWAjr8Wa3ACBcWpzJ4uYE. Tem a grade de páginas com arrastar (4 colunas × 16 linhas, proporção 29,7 × 50 cm), a folha de Mural e os fixos.
   - **A confirmar:** qual dos dois tem o botão de produzir a página.
+- **Por enquanto:** o usuário vai mandar o material da A2 subindo **arquivos de texto** na plataforma, onde já existe envio de arquivos (no Painel de Redação há "Importar blocos" e uma área para soltar arquivos). Não há implementação nova para isso agora.
+- **Depois:** criar na aplicação um **módulo de produção dos textos**. Ainda sem escopo; o usuário vai detalhar.
 
 ## Pendências
 
