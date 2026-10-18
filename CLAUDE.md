@@ -37,6 +37,14 @@ No quadro em que o usuário arrasta para definir os espaços da página:
 
 - **A confirmar com o usuário:** como medir se o texto cabe (contagem de caracteres ou linhas por coluna, corpo da fonte, colunas do espaço, título, foto e legenda); quais cores usar (sugestão: vermelho/laranja para "não cabe" e verde para "cabe"); e se deve haver um terceiro estado para **sobra de espaço** demais.
 
+## Página A2 (padrão fixo)
+
+A A2 da Gazeta tem sempre o mesmo conteúdo: **Editorial, Mural, A Semana e Expediente**.
+
+- **Layout atual:** cabeçalho "A2 | EDITORIAL" com data. Editorial em 4 colunas no alto, à esquerda. Mural em coluna cinza à direita, na altura toda da página. A Semana embaixo do Editorial, com cerca de 16 notas curtas em 2 colunas. Expediente em faixa no rodapé.
+- **Volume típico:** Editorial com cerca de 2.500 caracteres; Mural com 6 a 7 notas locais; A Semana com 14 a 18 notas.
+- Em 18/10/2026 o usuário pediu sugestões de diagramação tomando como referência a página de Opinião do jornal O Estado (CE). Foram propostas duas opções, A e B, e falta a escolha do usuário.
+
 ## Pendências
 
 O usuário ainda vai passar outros ajustes antes da implementação. Não editar o código das edições até ele liberar.
