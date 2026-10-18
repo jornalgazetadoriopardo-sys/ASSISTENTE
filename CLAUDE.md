@@ -43,7 +43,23 @@ A A2 da Gazeta tem sempre o mesmo conteúdo: **Editorial, Mural, A Semana e Expe
 
 - **Layout atual:** cabeçalho "A2 | EDITORIAL" com data. Editorial em 4 colunas no alto, à esquerda. Mural em coluna cinza à direita, na altura toda da página. A Semana embaixo do Editorial, com cerca de 16 notas curtas em 2 colunas. Expediente em faixa no rodapé.
 - **Volume típico:** Editorial com cerca de 2.500 caracteres; Mural com 6 a 7 notas locais; A Semana com 14 a 18 notas.
-- Em 18/10/2026 o usuário pediu sugestões de diagramação tomando como referência a página de Opinião do jornal O Estado (CE). Foram propostas duas opções, A e B, e falta a escolha do usuário.
+- **Layout escolhido: opção B.** É a estrutura atual com toques da página de Opinião do O Estado (CE):
+  - cabeçalho "A2 | EDITORIAL" com uma caixa de "Frase da semana";
+  - rótulo "EDITORIAL" pequeno acima do título do Editorial, em 4 colunas no alto à esquerda;
+  - Mural na coluna direita, na altura toda;
+  - A Semana embaixo do Editorial, em 2 blocos por tema (por exemplo, Economia e Brasil/Mundo/Cultura/Esporte), com um número em destaque no bloco;
+  - Expediente no rodapé.
+- **Expediente fixo:** faz parte do layout. O texto não muda de edição para edição e não precisa ser enviado.
+
+### Coleta da A2 durante a semana
+
+- **Como funciona:** o usuário vai enviando, ao longo da semana, as **notas do Mural**, o **Editorial** e as **notas de A Semana**. A plataforma guarda tudo na edição.
+- **Produzir a página:** quando tudo estiver enviado, o usuário aperta o botão de produzir a página, como nas outras páginas.
+- **Mostrar o que falta:** a plataforma deve indicar o que já chegou e o que falta, usando os volumes típicos acima (Editorial; Mural com 6 a 7 notas; A Semana com 14 a 18 notas).
+- **Onde está a plataforma:** ela não está neste repositório, e sim nos artifacts do claude.ai.
+  - **Painel de Redação:** https://claude.ai/artifact/CLharYPmRu6Zzevs5vpuwQ. Tem as pautas (`db`, coleção `pautas`, tamanho "mural") e produz matérias pelo trigger `trig_01Kkf9jvjo7585VWZr4Lmdx9`.
+  - **Painel de Fechamento:** https://claude.ai/artifact/BLWAjr8Wa3ACBcWpzJ4uYE. Tem a grade de páginas com arrastar (4 colunas × 16 linhas, proporção 29,7 × 50 cm), a folha de Mural e os fixos.
+  - **A confirmar:** qual dos dois tem o botão de produzir a página.
 
 ## Pendências
 
